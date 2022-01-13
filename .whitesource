@@ -2,9 +2,7 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-    "enableLicenseViolations": "true",
     "projectToken": "",
-    "enableIaC": "true",
     "baseBranches": []
   },
   "checkRunSettings": {
@@ -16,8 +14,7 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "extends": ["config:base"],
-    "extends": ["github>whitesource/merge-confidence:beta"],
-    "transitiveRemediation": true
+    "dependencyDashboard": true,
+    "extends": ["github>whitesource/merge-confidence:beta"]
   }
 }
