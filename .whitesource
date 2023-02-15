@@ -17,8 +17,8 @@
   "remediateSettings": {
     "extends": ["github>whitesource/merge-confidence:beta"],
     "workflowrules": {
-    "enabled": true,
-    "minVulnerabilitySeverity": "LOW"
+      "enabled": true,
+      "minVulnerabilitySeverity": "LOW"
     }
   }
 }
